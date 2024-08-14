@@ -1,0 +1,162 @@
+// .rotate {
+//     transform-origin: center;
+//     animation: rotateCircle 4s linear  infinite;
+//     transition: linear;
+//   }
+  
+//   @keyframes rotateCircle {
+//     0% {
+//       transform: rotate(0deg);
+//     }
+//     50%{
+//       transform: translateX(250px);
+//     }
+//     100% {
+//       transform: translateX(0px);
+//     }
+//   }
+
+//   @keyframes rotateCircle2 {
+//     0% {
+//       transform: translateX(250px);
+//     }
+//     50%{
+//       transform: translateX(0px);
+//     }
+//     100% {
+//       transform: translateX(250px);
+//     }
+//   }
+
+
+//   .rotate2{
+//     transform-origin: center;
+//     animation: rotateCircle2 4s linear 4s infinite;
+//   } 
+
+//   .container{
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     justify-content: center;
+//   } 
+
+//    body{
+//     margin: 0;
+//     padding: 0;
+
+
+//     background-color: black;
+//     background-size: cover;
+//   } 
+
+//    svg{
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%,-50%) ;
+//     width: 100%;
+//     height: 350px;
+   
+//   }
+
+//   svg text{
+//     font-size: 200px;
+//     fill: rgb(255, 0, 0);
+//     stroke-width: 1px;
+//     stroke: #ff0000;
+//     stroke-linejoin: round;
+//     stroke-dasharray: 80;
+//     animation: animate 5s linear infinite;
+   
+//   }
+
+//   svg path {
+    
+//     stroke-linejoin: round;
+//     stroke-dasharray: 16000;
+//     stroke-dashoffset: 16000;
+//     animation: animate 25s linear infinite;
+//   }
+
+//   @keyframes animate{
+//     to{
+//       stroke-dashoffset:0;
+      
+//     }
+//   }
+
+//   svg {
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%, -50%);
+//     width: 100%;
+//     height: 350px;
+//   }
+  
+//   svg text {
+//     font-size: 200px;
+//     fill: rgb(255, 0, 0);
+//     stroke-width: 1px;
+//     stroke: #ff0000;
+//     stroke-linejoin: round;
+//     stroke-dasharray: 80;
+//     animation: animate 5s linear infinite;
+//   }
+  
+  svg path {
+    
+    stroke-linejoin: round;
+    stroke-dasharray: 1380;
+    stroke-dashoffset: 1380;
+    animation: animate 10s linear infinite;
+  }
+  
+  @keyframes animate {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+//   h1{
+//     margin-top: 100px;
+//     color: white;
+//     font-size: 200px;
+//     background-image: url('/public/wall.JPG');
+//     aspect-ratio:9/16;
+//     background-repeat: no-repeat;
+//     height: 100vh;
+//     width: 100vw;
+//     -webkit-text-fill-color: transparent;
+//     -webkit-background-clip:text;
+//     -webkit-text-stroke: px rgba(255, 0, 0, 0);
+//   }
+
+  
+
+   *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+
+   .navbar{
+    background-color: black;
+ 
+  padding: 5%;
+    .ul{
+        display: flex;
+        // flex-direction: column;
+        justify-content: space-between;
+        .li{
+            
+            font-size: 32px;
+
+
+        }
+    }
+    
+
+   }
+
