@@ -48,7 +48,7 @@ setTimeout(()=>{
   >
     <style type="text/css">
       {`
-        .st0 { fill: #0bceb2; }
+        .st0 { fill:rgb(180, 206, 11); }
       `}
     </style>
     <g className={`delete-icon ${show && `animation`}`}>

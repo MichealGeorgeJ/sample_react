@@ -3,7 +3,12 @@
 body{
     background-color: white;
     // background-image: none;
-    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+    background: radial-gradient(rgba(0, 0, 0,0.8),rgba(0, 0, 0));
+    overflow: hidden;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    min-height: 100dvh;
+    min-width:  100dvw;
 }
 
 .buttonContainer{
@@ -13,13 +18,16 @@ display: flex;
 color: white;
 .buttons{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    gap: 2rem;
    align-items: center;
-    flex-direction: column;
+    // flex-direction: column;
     width:100%;
     overflow: hidden;
     
-    
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
 
 
     
@@ -29,9 +37,11 @@ display: flex;
 justify-content: center;
 align-items: center;
 flex-direction:row;
-height: 200px;
+cursor: pointer;
+// height: 200px;
 
         .delete,.edit{
+            cursor: pointer;
             color: white;
             padding-top:10px;
            display: flex;
@@ -41,7 +51,7 @@ height: 200px;
            height: 50px;
            font-size: 30px;
            border-radius: 10px;
-           background-color: #3d3d3d;
+           background-color: #8f56d4;
 
 border: none;
 .delete-icon{

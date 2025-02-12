@@ -6,6 +6,7 @@ import Cube from './Animations/Cube'
 import Buttons from './Animations/Buttons'
 import GridTemplates from './Animations/GridTemplates'
 import New from './Animations/New'
+import Whiteboard from './Animations/WhiteBoard'
 import { BrowserRouter as Router,Routes,Route } from 'react-router-dom'
 import Navbar from './Animations/Navbar'
 const App = () => {
@@ -28,6 +29,7 @@ const App = () => {
       {/* <MaskWords/> */}
       {/* <GridTemplates/> */}
       {/* <New/> */}
+      {/* <Whiteboard/> */}
     </>
   )
 }

@@ -142,13 +142,15 @@
    }
 
    .navbar{
-    background-color: black;
+    // background-color: black;
  
   padding: 5%;
     .ul{
         display: flex;
+        flex-wrap: wrap;
         // flex-direction: column;
         justify-content: space-between;
+        gap: 1rem;
         .li{
             
             font-size: 32px;
